@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchProductByIdAsync, selectProductById } from '../ProductSlice';
 
 import { useParams } from 'react-router-dom';
-import { addToCartAsync } from '../../cart/CartSlice';
+import { addToCartAsync, selectItems } from '../../cart/CartSlice';
 import { selectLoggedInUser } from '../../auth/authSlice';
 
 const colors = [
@@ -41,10 +41,27 @@ export default function ProductDetails() {
   const product = useSelector(selectProductById);
   const dispatch = useDispatch();
   const params = useParams();
+  const items = useSelector(selectItems);
 
   const handleCart = (e)=>{
     e.preventDefault();
-     dispatch(addToCartAsync({...product, quantity:1,user:user.id}));
+       
+     
+    const existingItem = items.find((item) => item.title === product.title && item.user === user.id)
+  //  console.log(existingItem)
+      
+    if (existingItem ) {
+      // If the product already exists, do nothing
+      console.log("Product already in cart");
+      return;
+    }
+
+    else
+    
+    {const newItem = {...product, quantity:1,user:user.id}
+    delete newItem['id']
+      dispatch(addToCartAsync(newItem));}
+     
   }
 
   useEffect(()=>{

@@ -28,9 +28,9 @@ const navigation = [
   { name: "Team", href: "#", current: false },
 ];
 const userNavigation = [
-  { name: "Your Profile", href: "#" },
-  { name: "Settings", href: "#" },
-  { name: "Sign out", href: "#" },
+  { name: "My Profile", link:'/profile' },
+  { name: "My Orders", link:'/orders' },
+  { name: "Sign out",link:'/logout' },
 ];
 
 function classNames(...classes) {
@@ -50,8 +50,8 @@ function Navbar({ children }) {
                 <div className="shrink-0">
                   <img
                     alt="Your Company"
-                   src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                    className="size-8 rounded-full object-cover bg-black"
+                   src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                    className="size-8 rounded-full object-cover "
                   />
                 </div>
                 </Link>
@@ -64,7 +64,7 @@ function Navbar({ children }) {
                         aria-current={item.current ? "page" : undefined}
                         className={classNames(
                           item.current
-                            ? "bg-gray-900 text-white"
+                            ? " text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
@@ -109,12 +109,17 @@ function Navbar({ children }) {
                     >
                       {userNavigation.map((item) => (
                         <MenuItem key={item.name}>
-                          <a
-                            href={item.href}
-                            className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:outline-none"
-                          >
-                            {item.name}
-                          </a>
+                          {({ active }) => (
+                                  <Link
+                                    to={item.link}
+                                    className={classNames(
+                                      active ? 'bg-gray-100' : '',
+                                      'block px-4 py-2 text-sm text-gray-700'
+                                    )}
+                                  >
+                                    {item.name}
+                                  </Link>
+                                )}
                         </MenuItem>
                       ))}
                     </MenuItems>
@@ -149,7 +154,7 @@ function Navbar({ children }) {
                   aria-current={item.current ? "page" : undefined}
                   className={classNames(
                     item.current
-                      ? "bg-gray-900 text-white"
+                      ? " text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}

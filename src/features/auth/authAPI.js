@@ -18,10 +18,7 @@ export function checkUser(loginInfo) {
     const data = await response.json();
 
     console.log({ data });
-   
-
     if (data.length) {
-      console.log(password );
       if(password === data[0].password) {
         resolve({ data: data[0] });
       } else {
@@ -30,5 +27,13 @@ export function checkUser(loginInfo) {
     } else {
       reject({ message: 'user not found' });
     }
+  });
+}
+
+
+export function signOut(userId) {
+  return new Promise(async (resolve) => {
+    
+    resolve({ data:'success' });
   });
 }

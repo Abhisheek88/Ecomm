@@ -959,32 +959,28 @@
     {
       "email": "dummy@gmail.com",
       "password": "Dell@123",
+      "addresses": [
+        {
+          "name": "abhishek kumar",
+          "email": "abhishek@gmail.com",
+          "phone": "91919191888",
+          "street": "siwan",
+          "city": "siwan",
+          "state": "siwan",
+          "pinCode": "909090"
+        }
+      ],
       "id": 1
+    },
+    {
+      "email": "abhi@gmail.com",
+      "password": "Dell@123",
+      "addresses": [],
+      "id": 2
     }
   ],
   "cart": [
     {
-      "id": 2,
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
-      "images": [
-        "https://tse1.mm.bing.net/th?id=OIP.s_6N2MZB_P9C5fXBPFHNgwHaGE&w=388&h=388&c=7",
-        "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.OI__Ka0ps-R8qFAwq9BLMQHaGk&w=420&h=420&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.l2Yc_d--QcdhP9zImF_ZDQHaHa&w=474&h=474&c=7"
-      ],
-      "quantity": 1,
-      "user": 1
-    },
-    {
-      "id": 1,
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
       "price": 549,
@@ -1001,47 +997,282 @@
         "https://tse1.mm.bing.net/th?id=OIP.PIoWnS21NeyD3U6TIM8xfwHaHa&w=474&h=474&c=7"
       ],
       "quantity": 1,
-      "user": 1
+      "user": 2,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop ",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.msRCX9gJ_J4UDU4q7YZl6wHaE8&pid=Api",
+          "images": [
+            "https://tse1.mm.bing.net/th?id=OIP.msRCX9gJ_J4UDU4q7YZl6wHaE8&pid=Api",
+            "https://tse1.mm.bing.net/th?id=OIP.HPqzJrRrtXSjz6bA2JlgrAHaEK&pid=Api",
+            "https://tse2.mm.bing.net/th?id=OIP.QNfGm7dXHSwnW0L5OrmPiQHaEK&pid=Api",
+            "https://tse3.mm.bing.net/th?id=OIP.Y-_kB35nIIXWYLBjiVn9eAHaFC&pid=Api"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        },
+        {
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.wvmLluJQUBPBGYTzfIQTHQHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.wvmLluJQUBPBGYTzfIQTHQHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1357.5600000000002,
+      "totalItems": 2,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "qq",
+            "email": "dummy@gmail.com",
+            "phone": "11111",
+            "street": "dssddsdsddd",
+            "city": "dddssedsdds",
+            "state": "dsddssd",
+            "pinCode": "121212"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "abhishek kumar",
+        "email": "abhishek@gmail.com",
+        "phone": "91919191888",
+        "street": "siwan",
+        "city": "siwan",
+        "state": "siwan",
+        "pinCode": "909090"
+      },
+      "status": "pending",
+      "id": 2
     },
     {
-      "id": 8,
-      "title": "Microsoft Surface Laptop ",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.msRCX9gJ_J4UDU4q7YZl6wHaE8&pid=Api",
-      "images": [
-        "https://tse1.mm.bing.net/th?id=OIP.msRCX9gJ_J4UDU4q7YZl6wHaE8&pid=Api",
-        "https://tse1.mm.bing.net/th?id=OIP.HPqzJrRrtXSjz6bA2JlgrAHaEK&pid=Api",
-        "https://tse2.mm.bing.net/th?id=OIP.QNfGm7dXHSwnW0L5OrmPiQHaEK&pid=Api",
-        "https://tse3.mm.bing.net/th?id=OIP.Y-_kB35nIIXWYLBjiVn9eAHaFC&pid=Api"
+      "items": [
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.xtkHb8DcOoZsQdqnNtfzUQHaEK&w=266&h=266&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.PIoWnS21NeyD3U6TIM8xfwHaHa&w=474&h=474&c=7"
+          ],
+          "quantity": 3,
+          "user": 2,
+          "id": 2
+        }
       ],
-      "quantity": 1,
-      "user": 1
+      "totalAmount": 1433.5500000000002,
+      "totalItems": 3,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "qq",
+            "email": "dummy@gmail.com",
+            "phone": "11111",
+            "street": "dssddsdsddd",
+            "city": "dddssedsdds",
+            "state": "dsddssd",
+            "pinCode": "121212"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "qq",
+        "email": "dummy@gmail.com",
+        "phone": "11111",
+        "street": "dssddsdsddd",
+        "city": "dddssedsdds",
+        "state": "dsddssd",
+        "pinCode": "121212"
+      },
+      "status": "pending",
+      "id": 3
     },
     {
-      "id": 9,
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
-      "rating": 4.54,
-      "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.WakNBAyzKD5XtkH8VqkylAHaFu&w=366&h=366&c=7",
-      "images": [
-        "https://tse4.mm.bing.net/th?id=OIP.XXso91aguzgysYtO-15PXQHaEK&w=266&h=266&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.uGTn9dCRqWq6MMyu8NDWzgHaE-&w=318&h=318&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.WakNBAyzKD5XtkH8VqkylAHaFu&w=366&h=366&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.WakNBAyzKD5XtkH8VqkylAHaFu&w=366&h=366&c=7"
+      "items": [
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.xtkHb8DcOoZsQdqnNtfzUQHaEK&w=266&h=266&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.PIoWnS21NeyD3U6TIM8xfwHaHa&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        }
       ],
-      "quantity": 1,
-      "user": 1
+      "totalAmount": 477.85,
+      "totalItems": 1,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "raja kumar",
+            "email": "dummy@gmail.com",
+            "phone": "909090888",
+            "street": "dssddsdsddd",
+            "city": "pala",
+            "state": "kerala",
+            "pinCode": "999999"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "raja kumar",
+        "email": "dummy@gmail.com",
+        "phone": "909090888",
+        "street": "dssddsdsddd",
+        "city": "pala",
+        "state": "kerala",
+        "pinCode": "999999"
+      },
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
+          "images": [
+            "https://tse1.mm.bing.net/th?id=OIP.s_6N2MZB_P9C5fXBPFHNgwHaGE&w=388&h=388&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.OI__Ka0ps-R8qFAwq9BLMQHaGk&w=420&h=420&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.l2Yc_d--QcdhP9zImF_ZDQHaHa&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 737.72,
+      "totalItems": 1,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "raja kumar",
+            "email": "dummy@gmail.com",
+            "phone": "909090888",
+            "street": "dssddsdsddd",
+            "city": "pala",
+            "state": "kerala",
+            "pinCode": "999999"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "raja kumar",
+        "email": "dummy@gmail.com",
+        "phone": "909090888",
+        "street": "dssddsdsddd",
+        "city": "pala",
+        "state": "kerala",
+        "pinCode": "999999"
+      },
+      "status": "pending",
+      "id": 5
     }
   ]
 }

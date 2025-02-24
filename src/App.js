@@ -11,6 +11,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchItemsByUserIdAsync } from "./features/cart/CartSlice";
 import { selectLoggedInUser } from "./features/auth/authSlice";
+import PageNotFound from "./pages/404";
+import OrderSuccessPage from "./pages/OrderSuccessPage";
+import UserOrdersPage from "./pages/UserOdersPage";
+import UserProfilePage from "./pages/UserProfilePage";
+import { fetchLoggedInUser } from "./features/user/userAPI";
+import { fetchLoggedInUserAsync } from "./features/user/userSlice";
+import Logout from "./features/auth/components/Logout";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -19,6 +27,7 @@ function App() {
   useEffect(() => {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user.id));
+      dispatch(fetchLoggedInUserAsync(user.id))
     }
   }, [dispatch, user]);
 
@@ -66,6 +75,49 @@ function App() {
             <Protected>
               <ProductDetailPage></ProductDetailPage>
             </Protected>
+          }
+        ></Route>
+        <Route
+          path="/order-success/:id"
+          element={
+          // <Protected>
+             <OrderSuccessPage></OrderSuccessPage>
+          // </Protected>
+          }
+        ></Route>
+        <Route
+          path="/orders"
+          element={
+         
+             <UserOrdersPage></UserOrdersPage>
+        
+          }
+        ></Route>
+        <Route
+          path="/profile"
+          element={
+         <UserProfilePage></UserProfilePage>
+        
+          }
+        ></Route>
+        <Route
+          path="/logout"
+          element={
+         <Logout></Logout>
+        
+          }
+        ></Route>
+        <Route
+          path="/forgot-password"
+          element={
+         <ForgotPasswordPage></ForgotPasswordPage>
+        
+          }
+        ></Route>
+        <Route
+          path="*"
+          element={
+           <PageNotFound></PageNotFound>
           }
         ></Route>
 
