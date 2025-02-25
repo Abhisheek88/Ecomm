@@ -565,7 +565,7 @@ function ProductGrid({products}) {
                 </div>
                <div className="flex-col">
                <p className="text-sm font-medium text-gray-900 ">
-                $ {(product.price * (1-product.discountPercentage/100 )).toFixed(2)}
+                $ {Math.round((product.price * (1-product.discountPercentage/100 )).toFixed(2))}
 
                 </p>
 
@@ -577,6 +577,10 @@ function ProductGrid({products}) {
                 
                </div>
               </div>
+              {product.deleted && <div>
+                    <p className="text-lg font-bold text-red-600">Unavailable
+                    </p>
+                  </div>}
             </div>
           </Link>
         ))}

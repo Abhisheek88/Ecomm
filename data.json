@@ -4,9 +4,9 @@
       "id": 1,
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
-      "price": 549,
+      "price": 499,
       "discountPercentage": 12.96,
-      "rating": 4.69,
+      "rating": 0,
       "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
@@ -15,16 +15,18 @@
         "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
         "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
         "https://tse1.mm.bing.net/th?id=OIP.xtkHb8DcOoZsQdqnNtfzUQHaEK&w=266&h=266&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.PIoWnS21NeyD3U6TIM8xfwHaHa&w=474&h=474&c=7"
-      ]
+        "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7"
+      ],
+      "image2": "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+      "deleted": true
     },
     {
       "id": 2,
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
+      "price": 999,
       "discountPercentage": 17.94,
-      "rating": 4.44,
+      "rating": 0,
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
@@ -33,14 +35,15 @@
         "https://tse1.mm.bing.net/th?id=OIP.s_6N2MZB_P9C5fXBPFHNgwHaGE&w=388&h=388&c=7",
         "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
         "https://tse1.mm.bing.net/th?id=OIP.OI__Ka0ps-R8qFAwq9BLMQHaGk&w=420&h=420&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.l2Yc_d--QcdhP9zImF_ZDQHaHa&w=474&h=474&c=7"
-      ]
+        "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7"
+      ],
+      "image2": "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7"
     },
     {
       "id": 3,
       "title": "Samsung Universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
+      "price": 1299,
       "discountPercentage": 15.46,
       "rating": 4.09,
       "stock": 36,
@@ -51,8 +54,9 @@
         "https://tse2.mm.bing.net/th?id=OIP.NxgQKOtsOljPLwk4mnIFzgHaH_&w=474&h=474&c=7",
         "https://tse2.mm.bing.net/th?id=OIP.TG4kv_787mM_x7XEuKVNNwHaI4&w=474&h=474&c=7",
         "https://tse1.mm.bing.net/th?id=OIP._2dc845re9ffbqg9uCK6uwHaPv&w=474&h=474&c=7",
-        "https://tse2.mm.bing.net/th?id=OIP.vGjy8U2okifa24Cxy7rWVAHaIy&w=474&h=474&c=7"
-      ]
+        "https://tse2.mm.bing.net/th?id=OIP.NxgQKOtsOljPLwk4mnIFzgHaH_&w=474&h=474&c=7"
+      ],
+      "image2": "https://tse2.mm.bing.net/th?id=OIP.TG4kv_787mM_x7XEuKVNNwHaI4&w=474&h=474&c=7"
     },
     {
       "id": 4,
@@ -959,6 +963,7 @@
     {
       "email": "dummy@gmail.com",
       "password": "Dell@123",
+      "role": "user",
       "addresses": [
         {
           "name": "abhishek kumar",
@@ -975,32 +980,29 @@
     {
       "email": "abhi@gmail.com",
       "password": "Dell@123",
-      "addresses": [],
-      "id": 2
-    }
-  ],
-  "cart": [
-    {
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
-      "images": [
-        "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
-        "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.xtkHb8DcOoZsQdqnNtfzUQHaEK&w=266&h=266&c=7",
-        "https://tse1.mm.bing.net/th?id=OIP.PIoWnS21NeyD3U6TIM8xfwHaHa&w=474&h=474&c=7"
+      "role": "user",
+      "addresses": [
+        {
+          "name": "abhishek kumar",
+          "email": "ak7739511@gmail.com",
+          "phone": "8292111577",
+          "street": "tarawra More",
+          "city": "Siwan",
+          "state": "Bihar",
+          "pinCode": "841226"
+        }
       ],
-      "quantity": 1,
-      "user": 2,
-      "id": 1
+      "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "addresses": [],
+      "role": "admin",
+      "id": 3
     }
   ],
+  "cart": [],
   "orders": [
     {
       "items": [
@@ -1210,69 +1212,6 @@
       },
       "status": "pending",
       "id": 4
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
-          "images": [
-            "https://tse1.mm.bing.net/th?id=OIP.s_6N2MZB_P9C5fXBPFHNgwHaGE&w=388&h=388&c=7",
-            "https://tse4.mm.bing.net/th?id=OIP.qm1sxEP-INnxwZ-d5mf_MAHaJ4&w=474&h=474&c=7",
-            "https://tse1.mm.bing.net/th?id=OIP.OI__Ka0ps-R8qFAwq9BLMQHaGk&w=420&h=420&c=7",
-            "https://tse1.mm.bing.net/th?id=OIP.l2Yc_d--QcdhP9zImF_ZDQHaHa&w=474&h=474&c=7"
-          ],
-          "quantity": 1,
-          "user": 2,
-          "id": 1
-        }
-      ],
-      "totalAmount": 737.72,
-      "totalItems": 1,
-      "user": {
-        "email": "abhi@gmail.com",
-        "password": "Dell@123",
-        "addresses": [
-          {
-            "name": "abhishek kumar",
-            "email": "abhishek@gmail.com",
-            "phone": "91919191888",
-            "street": "siwan",
-            "city": "siwan",
-            "state": "siwan",
-            "pinCode": "909090"
-          },
-          {
-            "name": "raja kumar",
-            "email": "dummy@gmail.com",
-            "phone": "909090888",
-            "street": "dssddsdsddd",
-            "city": "pala",
-            "state": "kerala",
-            "pinCode": "999999"
-          }
-        ],
-        "id": 2
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "raja kumar",
-        "email": "dummy@gmail.com",
-        "phone": "909090888",
-        "street": "dssddsdsddd",
-        "city": "pala",
-        "state": "kerala",
-        "pinCode": "999999"
-      },
-      "status": "pending",
-      "id": 5
     }
   ]
 }

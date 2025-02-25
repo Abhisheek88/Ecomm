@@ -63,6 +63,9 @@ const {
         <h3 className="text-lg font-serif font-semibold tracking-tighter text-slate-800 pl-10 py-5">
           Email address: {user.email}
         </h3>
+        {user.role==='admin' && (<h3 className="text-lg font-serif font-semibold tracking-tighter text-slate-800 pl-10 py-5">
+          role: {user.role}
+        </h3>)}
         </div>
      
 
@@ -78,8 +81,7 @@ const {
                     </button> 
 
                     { showAddressForm  ? <form
-              noValidate
-              const
+              noValidate 
               onSubmit={handleSubmit((data) => {
                 console.log(data);
                 handleAdd(data);

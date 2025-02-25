@@ -19,6 +19,11 @@ import { fetchLoggedInUser } from "./features/user/userAPI";
 import { fetchLoggedInUserAsync } from "./features/user/userSlice";
 import Logout from "./features/auth/components/Logout";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+import ProtectedAdmin from "./features/auth/ProtectedAdmin";
+import AdminHome from "./pages/AdminHome";
+import AdminProductDetailPage from "./pages/AdminProductDetailPage";
+import ProductForm from "./features/admin/components/ProductForm";
+import ProductFormPage from "./pages/ProductFormPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -42,6 +47,15 @@ function App() {
             </Protected>
           }
         ></Route>
+        <Route
+          path="/admin"
+          element={
+            <ProtectedAdmin>
+              <AdminHome></AdminHome>
+            </ProtectedAdmin>
+          }
+        ></Route>
+
         <Route
           path="/Home"
           element={
@@ -75,6 +89,30 @@ function App() {
             <Protected>
               <ProductDetailPage></ProductDetailPage>
             </Protected>
+          }
+        ></Route>
+        <Route
+          path="/admin/Product-detail/:id"
+          element={
+            <ProtectedAdmin>
+              <AdminProductDetailPage></AdminProductDetailPage>
+            </ProtectedAdmin>
+          }
+        ></Route>
+        <Route
+          path="/admin/Product-form"
+          element={
+            <ProtectedAdmin>
+              <ProductFormPage></ProductFormPage>
+            </ProtectedAdmin>
+          }
+        ></Route>
+        <Route
+          path="/admin/Product-form/edit/:id"
+          element={
+            <ProtectedAdmin>
+              <ProductFormPage></ProductFormPage>
+            </ProtectedAdmin>
           }
         ></Route>
         <Route
