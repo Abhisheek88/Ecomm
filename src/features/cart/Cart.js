@@ -14,6 +14,7 @@ import {
 } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, Navigate } from "react-router-dom";
+import { discountedPrice } from "../../app/constants";
 
 
 export default function Cart() {
@@ -24,7 +25,7 @@ export default function Cart() {
   
   const totalAmount = items.reduce(
     (amount, item) =>
-      (item.price * (1 - item.discountPercentage / 100)).toFixed(2) *
+      discountedPrice(item) *
         item.quantity +
       amount,
     0
@@ -73,10 +74,7 @@ export default function Cart() {
                             {" "}
                             <p className="ml-4 font-bold">
                               ${" "}
-                              {(
-                                item.price *
-                                (1 - item.discountPercentage / 100)
-                              ).toFixed(2) * item.quantity}
+                              {discountedPrice(item) * item.quantity}
                             </p>
                             <p className="ml-4 text-gray-400 line-through">
                               $ {item.price.toFixed(2) * item.quantity}

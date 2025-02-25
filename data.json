@@ -7,7 +7,7 @@
       "price": 499,
       "discountPercentage": 12.96,
       "rating": 0,
-      "stock": 94,
+      "stock": 0,
       "brand": "Apple",
       "category": "smartphones",
       "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
@@ -973,6 +973,15 @@
           "city": "siwan",
           "state": "siwan",
           "pinCode": "909090"
+        },
+        {
+          "name": "piyush kumar",
+          "email": "pk@gmail.com",
+          "phone": "9089753723",
+          "street": "jankinagar",
+          "city": "Siwan",
+          "state": "Bihar",
+          "pinCode": "841439"
         }
       ],
       "id": 1
@@ -983,13 +992,13 @@
       "role": "user",
       "addresses": [
         {
-          "name": "abhishek kumar",
-          "email": "ak7739511@gmail.com",
-          "phone": "8292111577",
-          "street": "tarawra More",
-          "city": "Siwan",
+          "name": "vivek kuamr",
+          "email": "abhis@gmail.com",
+          "phone": "889001315",
+          "street": "jp chwok",
+          "city": "siwan",
           "state": "Bihar",
-          "pinCode": "841226"
+          "pinCode": "841227"
         }
       ],
       "id": 2
@@ -1002,7 +1011,31 @@
       "id": 3
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 499,
+      "discountPercentage": 12.96,
+      "rating": 0,
+      "stock": 0,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+      "images": [
+        "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+        "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+        "https://tse1.mm.bing.net/th?id=OIP.xtkHb8DcOoZsQdqnNtfzUQHaEK&w=266&h=266&c=7",
+        "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7"
+      ],
+      "image2": "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+      "deleted": true,
+      "productId": 1,
+      "quantity": 1,
+      "user": 2,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -1084,7 +1117,90 @@
         "state": "siwan",
         "pinCode": "909090"
       },
-      "status": "pending",
+      "status": "delivered",
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop ",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.msRCX9gJ_J4UDU4q7YZl6wHaE8&pid=Api",
+          "images": [
+            "https://tse1.mm.bing.net/th?id=OIP.msRCX9gJ_J4UDU4q7YZl6wHaE8&pid=Api",
+            "https://tse1.mm.bing.net/th?id=OIP.HPqzJrRrtXSjz6bA2JlgrAHaEK&pid=Api",
+            "https://tse2.mm.bing.net/th?id=OIP.QNfGm7dXHSwnW0L5OrmPiQHaEK&pid=Api",
+            "https://tse3.mm.bing.net/th?id=OIP.Y-_kB35nIIXWYLBjiVn9eAHaFC&pid=Api"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        },
+        {
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.wvmLluJQUBPBGYTzfIQTHQHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.wvmLluJQUBPBGYTzfIQTHQHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1357.5600000000002,
+      "totalItems": 2,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "qq",
+            "email": "dummy@gmail.com",
+            "phone": "11111",
+            "street": "dssddsdsddd",
+            "city": "dddssedsdds",
+            "state": "dsddssd",
+            "pinCode": "121212"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "abhishek kumar",
+        "email": "abhishek@gmail.com",
+        "phone": "91919191888",
+        "street": "siwan",
+        "city": "siwan",
+        "state": "siwan",
+        "pinCode": "909090"
+      },
+      "status": "delivered",
       "id": 2
     },
     {
@@ -1147,7 +1263,7 @@
         "state": "dsddssd",
         "pinCode": "121212"
       },
-      "status": "pending",
+      "status": "cancelled",
       "id": 3
     },
     {
@@ -1210,8 +1326,519 @@
         "state": "kerala",
         "pinCode": "999999"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 280,
+          "discountPercentage": 17.91,
+          "rating": 4.3,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.8Rn8bU4fRKuTcQT-5zdf1gHaGf&w=415&h=415&c=7",
+          "images": [
+            "https://tse4.mm.bing.net/th?id=OIP.8Rn8bU4fRKuTcQT-5zdf1gHaGf&w=415&h=415&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.6pgZ7Nq2HUu4N-tXUr0U5wHaFi&w=354&h=354&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.N8FzzeXa9-AcFhi-ePk50QHaNo&w=474&h=474&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.N8FzzeXa9-AcFhi-ePk50QHaNo&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        },
+        {
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.7cGSFaX7o1tstgUCmlB9eQHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.7cGSFaX7o1tstgUCmlB9eQHaHa&w=474&h=474&c=7",
+            "https://tse3.mm.bing.net/th?id=OIP.7cGSFaX7o1tstgUCmlB9eQHaHa&w=474&h=474&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.pj4IoWRAq_l7spCfhnHOGwHaFL&w=331&h=331&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.pj4IoWRAq_l7spCfhnHOGwHaFL&w=331&h=331&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1260.9299999999998,
+      "totalItems": 2,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "ak7739511@gmail.com",
+            "phone": "8292111577",
+            "street": "tarawra More",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841226"
+          },
+          {
+            "name": "vivek kuamr",
+            "email": "abhis@gmail.com",
+            "phone": "889001315",
+            "street": "jp chwok",
+            "city": "siwan",
+            "state": "Bihar",
+            "pinCode": "841227"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "vivek kuamr",
+        "email": "abhis@gmail.com",
+        "phone": "889001315",
+        "street": "jp chwok",
+        "city": "siwan",
+        "state": "Bihar",
+        "pinCode": "841227"
+      },
+      "status": "cancelled",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.VX6GcLJi6q-h5uRzZW4jvAHaEK&w=266&h=266&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.VX6GcLJi6q-h5uRzZW4jvAHaEK&w=266&h=266&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.J464r6vcB8BDGJq3kEMcQwHaEK&w=266&h=266&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.J464r6vcB8BDGJq3kEMcQwHaEK&w=266&h=266&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.eAstQcQbZOYFOgtDL2LtlgHaEf&pid=Api"
+          ],
+          "quantity": 4,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 5747.16,
+      "totalItems": 4,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "ak7739511@gmail.com",
+            "phone": "8292111577",
+            "street": "tarawra More",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841226"
+          },
+          {
+            "name": "vivek kuamr",
+            "email": "abhis@gmail.com",
+            "phone": "889001315",
+            "street": "jp chwok",
+            "city": "siwan",
+            "state": "Bihar",
+            "pinCode": "841227"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "vivek kuamr",
+        "email": "abhis@gmail.com",
+        "phone": "889001315",
+        "street": "jp chwok",
+        "city": "siwan",
+        "state": "Bihar",
+        "pinCode": "841227"
+      },
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "Brown Perfume",
+          "description": "Royal Mirage Sport Brown Perfume for Men & Women - 120ml",
+          "price": 40,
+          "discountPercentage": 15.66,
+          "rating": 4,
+          "stock": 52,
+          "brand": "Royal Mirage",
+          "category": "fragrances",
+          "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.K3R4VDLrpf-9mcFYV5YQ2QHaJQ&w=474&h=474&c=7",
+          "images": [
+            "https://tse4.mm.bing.net/th?id=OIP.K3R4VDLrpf-9mcFYV5YQ2QHaJQ&w=474&h=474&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.K3R4VDLrpf-9mcFYV5YQ2QHaJQ&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.ke7S00iEcOXTlI71XA_XggHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.zhptv9ZER8mdGIwQ7PMjSgHaHa&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 33.74,
+      "totalItems": 1,
+      "user": {
+        "email": "abhi@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "ak7739511@gmail.com",
+            "phone": "8292111577",
+            "street": "tarawra More",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841226"
+          },
+          {
+            "name": "vivek kuamr",
+            "email": "abhis@gmail.com",
+            "phone": "889001315",
+            "street": "jp chwok",
+            "city": "siwan",
+            "state": "Bihar",
+            "pinCode": "841227"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "vivek kuamr",
+        "email": "abhis@gmail.com",
+        "phone": "889001315",
+        "street": "jp chwok",
+        "city": "siwan",
+        "state": "Bihar",
+        "pinCode": "841227"
+      },
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://jumborealty.co.in/wp-content/uploads/2024/10/514cimWUQBL._SX425_PIbundle-2TopRight00_AA425SH20_.jpg",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1Cg7blIu3LwPvLflQx2lOla9Bimx4QozgA&s",
+            "https://jumborealty.co.in/wp-content/uploads/2024/10/514cimWUQBL._SX425_PIbundle-2TopRight00_AA425SH20_.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1Cg7blIu3LwPvLflQx2lOla9Bimx4QozgA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1Cg7blIu3LwPvLflQx2lOla9Bimx4QozgA&s"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.wvmLluJQUBPBGYTzfIQTHQHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.wvmLluJQUBPBGYTzfIQTHQHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.QtbwxhH5lDOMXjadupFRYgHaJm&w=474&h=474&c=7"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 23.85,
+      "totalItems": 2,
+      "user": {
+        "email": "dummy@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "piyush kumar",
+            "email": "pk@gmail.com",
+            "phone": "9089753723",
+            "street": "jankinagar",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841439"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "piyush kumar",
+        "email": "pk@gmail.com",
+        "phone": "9089753723",
+        "street": "jankinagar",
+        "city": "Siwan",
+        "state": "Bihar",
+        "pinCode": "841439"
+      },
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 499,
+          "discountPercentage": 12.96,
+          "rating": 0,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP.xtkHb8DcOoZsQdqnNtfzUQHaEK&w=266&h=266&c=7",
+            "https://tse3.mm.bing.net/th?id=OIP.B8iIvrdjb8Lh4REuvyxLngHaHa&w=474&h=474&c=7"
+          ],
+          "image2": "https://tse2.mm.bing.net/th?id=OIP.DRpRRAHX870S8zVu4J3kZgHaE8&w=316&h=316&c=7",
+          "deleted": true,
+          "quantity": 2,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 868.66,
+      "totalItems": 2,
+      "user": {
+        "email": "dummy@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "piyush kumar",
+            "email": "pk@gmail.com",
+            "phone": "9089753723",
+            "street": "jankinagar",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841439"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "abhishek kumar",
+        "email": "abhishek@gmail.com",
+        "phone": "91919191888",
+        "street": "siwan",
+        "city": "siwan",
+        "state": "siwan",
+        "pinCode": "909090"
+      },
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1299,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://tse2.mm.bing.net/th?id=OIP.NxgQKOtsOljPLwk4mnIFzgHaH_&w=474&h=474&c=7",
+          "images": [
+            "https://tse2.mm.bing.net/th?id=OIP.NxgQKOtsOljPLwk4mnIFzgHaH_&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.TG4kv_787mM_x7XEuKVNNwHaI4&w=474&h=474&c=7",
+            "https://tse1.mm.bing.net/th?id=OIP._2dc845re9ffbqg9uCK6uwHaPv&w=474&h=474&c=7",
+            "https://tse2.mm.bing.net/th?id=OIP.NxgQKOtsOljPLwk4mnIFzgHaH_&w=474&h=474&c=7"
+          ],
+          "image2": "https://tse2.mm.bing.net/th?id=OIP.TG4kv_787mM_x7XEuKVNNwHaI4&w=474&h=474&c=7",
+          "quantity": 3,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 3294.51,
+      "totalItems": 3,
+      "user": {
+        "email": "dummy@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "piyush kumar",
+            "email": "pk@gmail.com",
+            "phone": "9089753723",
+            "street": "jankinagar",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841439"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "piyush kumar",
+        "email": "pk@gmail.com",
+        "phone": "9089753723",
+        "street": "jankinagar",
+        "city": "Siwan",
+        "state": "Bihar",
+        "pinCode": "841439"
+      },
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://jumborealty.co.in/wp-content/uploads/2024/10/514cimWUQBL._SX425_PIbundle-2TopRight00_AA425SH20_.jpg",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1Cg7blIu3LwPvLflQx2lOla9Bimx4QozgA&s",
+            "https://jumborealty.co.in/wp-content/uploads/2024/10/514cimWUQBL._SX425_PIbundle-2TopRight00_AA425SH20_.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1Cg7blIu3LwPvLflQx2lOla9Bimx4QozgA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1Cg7blIu3LwPvLflQx2lOla9Bimx4QozgA&s"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.VX6GcLJi6q-h5uRzZW4jvAHaEK&w=266&h=266&c=7",
+          "images": [
+            "https://tse3.mm.bing.net/th?id=OIP.VX6GcLJi6q-h5uRzZW4jvAHaEK&w=266&h=266&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.J464r6vcB8BDGJq3kEMcQwHaEK&w=266&h=266&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.J464r6vcB8BDGJq3kEMcQwHaEK&w=266&h=266&c=7",
+            "https://tse4.mm.bing.net/th?id=OIP.eAstQcQbZOYFOgtDL2LtlgHaEf&pid=Api"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1448.73,
+      "totalItems": 2,
+      "user": {
+        "email": "dummy@gmail.com",
+        "password": "Dell@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "abhishek kumar",
+            "email": "abhishek@gmail.com",
+            "phone": "91919191888",
+            "street": "siwan",
+            "city": "siwan",
+            "state": "siwan",
+            "pinCode": "909090"
+          },
+          {
+            "name": "piyush kumar",
+            "email": "pk@gmail.com",
+            "phone": "9089753723",
+            "street": "jankinagar",
+            "city": "Siwan",
+            "state": "Bihar",
+            "pinCode": "841439"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "abhishek kumar",
+        "email": "abhishek@gmail.com",
+        "phone": "91919191888",
+        "street": "siwan",
+        "city": "siwan",
+        "state": "siwan",
+        "pinCode": "909090"
+      },
+      "status": "pending",
+      "id": 11
     }
   ]
 }

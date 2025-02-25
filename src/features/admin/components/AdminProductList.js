@@ -37,7 +37,7 @@ import {
 } from "@heroicons/react/20/solid";
 
 import { Link, useParams } from "react-router-dom";
-import { ITEMs_PER_PAGE } from "../../../app/constants";
+import { discountedPrice, ITEMs_PER_PAGE } from "../../../app/constants";
 
 const items = [
   {
@@ -573,15 +573,13 @@ function ProductGrid({ products }) {
                     <div className="flex-col">
                       <p className="text-sm font-medium text-gray-900 ">
                         ${" "}
-                        {(
-                          product.price *
-                          (1 - product.discountPercentage / 100)
-                        ).toFixed(2)}
+                        {discountedPrice(product)}
                       </p>
 
                       <p className="text-sm font-medium text-gray-500 line-through ">
                         $ {product.price}
                       </p>
+                     
                     </div>
                   </div>
                   {product.deleted && <div>

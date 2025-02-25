@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchLoggedInUserOrderAsync, selectUserInfo, selectUserOrders } from "../userSlice";
+import { discountedPrice } from "../../../app/constants";
 
 
 export default function UserOrders() {
@@ -49,10 +50,7 @@ export default function UserOrders() {
                                 {" "}
                                 <p className="ml-4 font-bold">
                                   ${" "}
-                                  {(
-                                    item.price *
-                                    (1 - item.discountPercentage / 100)
-                                  ).toFixed(2) * item.quantity}
+                                  {discountedPrice(item)* item.quantity}
                                 </p>
                                 <p className="ml-4 text-gray-400 line-through">
                                   $ {item.price.toFixed(2) * item.quantity}

@@ -12,6 +12,7 @@ import {
 import {  updateUserAsync } from "../auth/authSlice";
 import { createOrderAsync, selectCurrentOrder } from "../order/orderSlice";
 import { selectUserInfo } from "../user/userSlice";
+import { discountedPrice } from "../../app/constants";
 
 
 
@@ -41,7 +42,7 @@ export default function Checkout() {
 
   const totalAmount = items.reduce(
     (amount, item) =>
-      (item.price * (1 - item.discountPercentage / 100)).toFixed(2) *
+      discountedPrice(item) *
         item.quantity +
       amount,
     0
@@ -413,10 +414,7 @@ export default function Checkout() {
                               
                               <p className="ml-4 font-bold">
                                 $
-                                {(
-                                  item.price *
-                                  (1 - item.discountPercentage / 100)
-                                ).toFixed(2) * item.quantity}
+                                {(discountedPrice(item) * item.quantity)}
                               </p>
                               <p className="ml-4 text-gray-400 line-through">
                                 $ {item.price.toFixed(2) * item.quantity}
